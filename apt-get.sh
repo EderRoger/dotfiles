@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt-get update
-
-sudo apt-get install -y openjdk-7-jdk
+sudo add-apt-repository -y ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install -y oracle-java7-installer
 sudo apt-get install -y git subversion
 sudo apt-get install -y vim-nox exuberant-ctags
 sudo apt-get install -y tmux
@@ -13,6 +14,7 @@ sudo apt-get install -y libxml2-dev libxslt-dev autoconf libc6-dev fortune
 sudo apt-get install -y ncurses-dev automake libtool bison gyp tree htop
 sudo apt-get install -y apache2-utils httperf
 sudo apt-get install -y rhino
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejssudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
 sudo apt-get install -y leiningen
-
