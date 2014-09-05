@@ -5,8 +5,8 @@
 	br = branch
 	l = log
 [user]
-	name = Leandro Moreira
-        email = leandro.ribeiro.moreira@gmail.com
+	name =  Eder Roger
+        email = eder.roger.souza@gmail.com
 [color]
 	branch = auto
 	diff = auto
@@ -14,6 +14,6 @@
 	status = auto
 [core]
 	editor = vim
-	excludesfile = /home/lrm/dotfiles/.global_ignore
+	excludesfile = /home/eder/dotfiles/.global_ignore
 [push]
 	default = simple
